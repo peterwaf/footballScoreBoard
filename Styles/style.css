@@ -5,4 +5,24 @@ body {
 .container {
     display: flex;
     justify-content: space-around;
+
+}
+
+.score_container {
+    position:relative;
+    width: 575px;
+    height: 385px;
+    background: #1B244A;
+    margin: 10px auto;
+}
+
+.score_divs_container {
+    width:100%;
+}
+
+.score_values_container {
+    float: left;
+    width: 50%;
+    text-align: center;
+    color: #EEEEEE;
 }
