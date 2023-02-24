@@ -9,20 +9,50 @@ body {
 }
 
 .score_container {
-    position:relative;
+    position: relative;
     width: 575px;
-    height: 385px;
     background: #1B244A;
     margin: 10px auto;
 }
 
 .score_divs_container {
-    width:100%;
+    width: 100%;
 }
 
 .score_values_container {
     float: left;
-    width: 50%;
+    width: 30%;
+    margin: 10%;
     text-align: center;
     color: #EEEEEE;
+}
+
+h3 {
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    /* identical to box height, or 90% */
+
+    text-align: center;
+
+    color: #EEEEEE;
+}
+
+.score_top {
+    width:auto;
+    background: #000000;
+    margin: auto;
+}
+
+.score_top h4 {
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    /* or 141% */
+    text-align: center;
+    color: #F94F6D;
 }
