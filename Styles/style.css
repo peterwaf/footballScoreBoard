@@ -1,5 +1,7 @@
 body {
     margin: 0;
+    background-image: url('../images/field.jpg');
+    background-size: cover;
 }
 
 .container {
@@ -11,8 +13,9 @@ body {
 .score_container {
     position: relative;
     width: 575px;
-    background: #1B244A;
+    background: #f43f5d71;
     margin: 10px auto;
+    border-radius: 5px;
 }
 
 .score_divs_container {
