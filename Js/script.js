@@ -18,33 +18,42 @@ score_guest.innerText = guestDefaultScore;
 // functions to increment the home team scores based on the button clicked
 
 function add_1_point_home() {
-    homeDefaultScore += 1
+    homeDefaultScore += 1;
     score_home.innerText = homeDefaultScore;
 }
 
 function add_2_point_home() {
-    homeDefaultScore += 2
+    homeDefaultScore += 2;
     score_home.innerText = homeDefaultScore;
 }
 
 function add_3_point_home() {
-    homeDefaultScore += 3
+    homeDefaultScore += 3;
     score_home.innerText = homeDefaultScore;
 }
 
 // functions to increment the guest team scores based on the button clicked
 
 function add_1_point_guest() {
-    guestDefaultScore += 1
+    guestDefaultScore += 1;
     score_guest.innerText = guestDefaultScore;
 }
 
 function add_2_point_guest() {
-    guestDefaultScore += 2
+    guestDefaultScore += 2;
     score_guest.innerText = guestDefaultScore;
 }
 
 function add_3_point_guest() {
-    guestDefaultScore += 3
+    guestDefaultScore += 3;
+    score_guest.innerText = guestDefaultScore;
+}
+
+// function to reset scores
+
+function reset_scores() {
+    homeDefaultScore = 0;
+    guestDefaultScore = 0;
+    score_home.innerText = homeDefaultScore;
     score_guest.innerText = guestDefaultScore;
 }
