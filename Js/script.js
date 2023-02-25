@@ -9,23 +9,42 @@ let addTwoPoint = document.getElementById("add_2");
 let addThreePoint = document.getElementById("add_3");
 
 //set the default score values to 0
-let default_score = 0
-score_home.innerText = default_score;
-score_guest.innerText = default_score;
+let homeDefaultScore = 0
+let guestDefaultScore = 0
 
-// functions to increment the scores based on the button clicked
+score_home.innerText = homeDefaultScore;
+score_guest.innerText = guestDefaultScore;
 
-function add_1_point(){
-    default_score +=1
-    score_home.innerText = default_score;
+// functions to increment the home team scores based on the button clicked
+
+function add_1_point_home() {
+    homeDefaultScore += 1
+    score_home.innerText = homeDefaultScore;
 }
 
-function add_2_point(){
-    default_score +=2
-    score_home.innerText = default_score;
+function add_2_point_home() {
+    homeDefaultScore += 2
+    score_home.innerText = homeDefaultScore;
 }
 
-function add_3_point(){
-    default_score +=3
-    score_home.innerText = default_score;
+function add_3_point_home() {
+    homeDefaultScore += 3
+    score_home.innerText = homeDefaultScore;
+}
+
+// functions to increment the guest team scores based on the button clicked
+
+function add_1_point_guest() {
+    guestDefaultScore += 1
+    score_guest.innerText = guestDefaultScore;
+}
+
+function add_2_point_guest() {
+    guestDefaultScore += 2
+    score_guest.innerText = guestDefaultScore;
+}
+
+function add_3_point_guest() {
+    guestDefaultScore += 3
+    score_guest.innerText = guestDefaultScore;
 }
